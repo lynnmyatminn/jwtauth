@@ -1,0 +1,33 @@
+.container {
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formTitle {
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  height: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.formSubmitButton {
+  border: none;
+  border-radius: 10px;
+  background-color: darkgray;
+  cursor: pointer;
+  padding: 10px;
+}
